@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<globalevents>
+	<globalevent type="startup" name="ServerStartup" script="startup.lua"/>
+	<globalevent type="record" name="PlayerRecord" script="record.lua"/>
+	<globalevent name="Server Save" time="09:55:00" script="serversave.lua" />
+	<globalevent name="PowerGamers" interval="60000" script="powergamers.lua"/>
+	<globalevent name="timedSave" interval="900000" script="timedsave.lua"/> 
+</globalevents>

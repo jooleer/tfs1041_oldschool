@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Bank Guy" script="bank.lua" walkinterval="2000" speed="100" walkradius="4" floorchange="0" ignoreheight="0">
+	<health max="100" now="100"/>
+	<look type="166" head="39" body="114" legs="0" feet="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="
+			black pearl,2144,280;
+			ruby necklace,2133,2000;
+			scarab coin,2159,100;
+			small amethyst,2150,200;
+			small diamond,2145,300;
+			small emerald,2149,250;
+			small ruby,2147,250;
+			small sapphire,2146,250;
+			wedding ring,2121,100;
+			white pearl,2143,160;" />
+		<parameter key="shop_buyable" value="
+			black pearl,2144,560;
+			golden amulet,2130,6600;
+			ruby necklace,2133,3560;
+			small amethyst,2150,400;
+			small diamond,2145,600;
+			small emerald,2149,500;
+			small ruby,2147,500;
+			small sapphire,2146,500;
+			wedding ring,2121,990;
+			white pearl,2143,320;" />
+	</parameters>
+</npc>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Item Dealer" script="seller.lua" walkinterval="2000" speed="100" walkradius="4" floorchange="0" ignoreheight="0">
+	<health max="100" now="100"/>
+	<look type="51"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="
+			ancient shield, 2535, 900;
+			beholder shield, 2518, 1200;
+			black shield, 2529, 800;
+			blue robe, 2656, 10000;
+			boots of haste, 2195, 30000;
+			broadsword, 2413, 500;
+			castle shield, 2535, 5000;
+			crown armor, 2487, 12000;
+			crown helmet, 2491, 2500;
+			crown legs, 2488, 12000;
+			crown shield, 2519, 8000;
+			crusader helmet, 2497, 6000;
+			dark armor, 2489, 400;
+			dark helmet, 2490, 250;
+			demon shield, 2520, 30000;
+			dragon hammer, 2434, 2000;
+			dragon lance, 2414, 9000;
+			dragon scale mail, 2492, 40000;
+			dragon shield, 2516, 4000;
+			epee, 2438, 8000;
+			fire axe, 2432, 8000;
+			fire sword, 2392, 4000;
+			giant sword, 2393, 17000;
+			golden armor, 2466, 20000;
+			golden legs, 2470, 70000;
+			guardian shield, 2515, 2000;
+			knight armor, 2476, 5000;
+			knight axe, 2430, 2000;
+			knight legs, 2477, 5000;
+			leopard armor, 3968, 1000;
+			magic plate armor, 2472, 110000;
+			mastermind shield, 2514, 50000;
+			medusa shield, 2536, 9000;
+			mystic turban, 2663, 150;
+			plate legs, 2647, 1000;
+			platinum amulet, 2171, 2500;
+			quagmire rod, 2181, 2000;
+			royal helmet, 2498, 30000;
+			serpent sword, 2409, 900;
+			skull staff, 2436, 6000;
+			spike sword, 2383, 1000;
+			steel boots, 2645, 30000;
+			tempest rod, 2183, 3000;
+			tower shield, 2528, 8000;
+			vampire shield, 2534, 15000;
+			volcanic rod, 2185, 1000;
+			wand of cosmic energy, 2189, 2000;
+			wand of inferno, 2187, 3000;
+			wand of plague, 2188, 1000;
+			war hammer, 2391, 1200;
+			warrior helmet, 2475, 5000"/>
+	</parameters>
+</npc>
