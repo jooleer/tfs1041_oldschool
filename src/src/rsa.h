@@ -20,26 +20,25 @@
 #ifndef FS_RSA_H_C4E277DA8E884B578DDBF0566F504E91
 #define FS_RSA_H_C4E277DA8E884B578DDBF0566F504E91
 
-#include <gmp.h>
+#include <cryptopp/rsa.h>
+#include <string>
 
 class RSA
 {
 	public:
-		RSA();
-		~RSA();
+		RSA() = default;
 
 		// non-copyable
 		RSA(const RSA&) = delete;
 		RSA& operator=(const RSA&) = delete;
 
-		void setKey(const char* p, const char* q);
+		void loadPEM(const std::string& filename);
 		void decrypt(char* msg);
 
-	protected:
-		std::recursive_mutex lock;
+		
+	private:
+		CryptoPP::RSA::PrivateKey pk;
 
-		//use only GMP
-		mpz_t m_n, m_d;
 };
 
 #endif
